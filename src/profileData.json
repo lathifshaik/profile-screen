@@ -1,0 +1,30 @@
+{
+    "name": "Anuj Gosalia",
+    "username": "anujgosalia",
+    "designation": "Co-founder & CEO at Terribly Tiny Tales",
+    "website": "http://www.instagram.com/anujgosalia",
+    "followers": "6482",
+    "following": "245",
+    "posts": "134",
+    "articles": [
+      {
+        "title": "A Changing World Order",
+        "description": "A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.",
+        "readTime": "2 mins",
+        "views": "102"
+      },
+      {
+        "title": "Indian v/s Australia",
+        "description": "A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.",
+        "readTime": "in Read",
+        "views": "156"
+      },
+      {
+        "title": "Write To Build",
+        "description": "A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.",
+        "readTime": "15 min",
+        "views": "228"
+      }
+    ]
+  }
+  
