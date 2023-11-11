@@ -25,7 +25,7 @@ const ProfileScreen = () => {
   </div>
 
   <div>
-    <img className='bg' src={bg} alt='background image' />
+    <img className='bg' src={bg} alt='background' />
   </div>
 
   <div className="profile-header">
@@ -40,7 +40,7 @@ const ProfileScreen = () => {
   </div>
   <div>
   <h3 className='designation'>{profileData.designation}</h3>
-  <a href={profileData.website}>{profileData.website}</a>
+  <a style={{color: 'skyblue'}} href={profileData.website}>{profileData.website}</a>
   <div className='designation'>
     <StarIcon style={{ color: 'lightblue' }} /> 125 &nbsp;
     <ThumbUpIcon style={{ color: 'gold' }} /> 12 &nbsp;
@@ -62,11 +62,12 @@ const ProfileScreen = () => {
   <ul>
     {profileData.articles.map((article) => (
       <p key={article.title} className="article-item">
-        <h2 style={{ fontWeight: 'bold' }}>{article.title} <ThumbUpIcon style={{ color: 'gold' }} /> </h2>
+        <h3 style={{ fontWeight: 'bold' }}>{article.title} </h3>
+        <p className='like'><ThumbUpIcon style={{ color: 'gold' }} /></p>
         <a href={article.description} style={{ color:'black' , textDecoration: 'none' }}>
           <p>{article.description}</p>
         </a>
-        <p>{article.readTime} &nbsp; &nbsp; {article.views} views</p>
+        <p className='views'>{article.readTime} &nbsp; &nbsp; {article.views} views</p>
         <div className="article-line"></div>
       </p>
     ))}

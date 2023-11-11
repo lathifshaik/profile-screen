@@ -11,6 +11,7 @@
   
 }
 
+
 .dp {
   margin-right: 10px;
 }
@@ -114,6 +115,19 @@ a {
   border-bottom: 1px solid lightgray;
   padding-bottom: 10px;
   margin-bottom: 10px; 
+}
+
+
+.like {
+  text-align: right;
+  margin-right: 6%;
+  margin-top: -4.5%;
+
+}
+
+.views {
+  text-align: right;
+  margin-right: 6%;
 }
 
 
